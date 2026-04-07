@@ -1,0 +1,68 @@
+$ORIGIN mooo.com.	; default zone domain
+$TTL 86400		; default time to live
+
+@	IN	SOA	vlpn10.mooo.com		admin.mooo.com. (
+	2025020101	; serial number
+	28800		; Refresh
+	7200		; Retry
+	864000		; Expire
+	86400		; Min TTL
+	)
+
+; DNS server
+	NS	vlpn10.mooo.com.
+	NS	ucc01.mooo.com.
+	A	185.230.141.184
+	AAAA	2a07:14c0:1:7503::10
+
+; Mail servers
+;	MX	10	ns01.fbsd.site.
+
+; A records
+    ; Control center
+;ucc01	IN	A	
+;ucc01	IN	AAAA	
+
+    ; 1-t etxternal VLESS servers
+vlpn01	IN	A	46.8.113.136
+;vlpn01	IN	AAAA	
+vlpn02	IN	A	188.130.208.15
+;vlpn02	IN	AAAA	
+
+    ; 2-d group external VLESS servers
+vlpn03	IN	A	185.143.238.86
+vlpn03	IN	AAAA	2a0d:6c2:26:1085::10
+vlpn04	IN	A	45.131.135.147
+vlpn04	IN	AAAA	2a0d:6c2:24:b8d::10
+
+    ; 3-d group external VLESS servers
+;vlpn05	IN	A	
+;vlpn05	IN	AAAA	
+;vlpn06	IN	A	
+;vlpn06	IN	AAAA	
+
+    ; 4-d group external VLESS servers
+;vlpn07	IN	A	
+;vlpn07	IN	AAAA	
+;vlpn08	IN	A	
+;vlpn08	IN	AAAA	
+
+    ; Reserve external VLESS servers
+;vlpn09	IN	A	
+;vlpn09	IN	AAAA	
+
+    ; Russian VLESS servers
+vlpn10	IN	A	185.230.141.184
+vlpn10	IN	AAAA	2a07:14c0:1:7503::10
+
+vlpn11	IN	A	194.113.104.70
+vlpn11	IN	AAAA	2a07:14c0:1:0804::10
+
+*	IN	A	185.230.141.184
+*	IN	AAAA	2a07:14c0:1:7503::10
+
+; TXT records
+;_acme-challenge.fbsd.site.      IN      TXT
+
+; CNAMES
+;www     IN      CNAME   fbsd.site.

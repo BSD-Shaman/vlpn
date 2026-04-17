@@ -1,0 +1,13 @@
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto ens3
+iface ens3 inet static
+    address   50.114.115.65
+    netmask   255.255.255.255
+    gateway   10.0.0.1
+
+iface ens3 inet6 static
+    address   2a0d:d940:20:e::2/64
+    gateway   2a0d:d940:20:e::1

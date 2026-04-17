@@ -1,0 +1,12 @@
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+allow-hotplug ens18
+iface ens18 inet static
+    address	89.23.106.89/24
+    gateway	89.23.106.1
+
+iface ens18 inet6 static
+    address	2a13:a502::ce/32
+    gateway	2a13:a502::1

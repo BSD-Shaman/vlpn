@@ -37,44 +37,6 @@
             "enabled": true,
             "destOverride": [ "http", "tls" ]
         }
-    },
-// vlpn11-ipv4 config
-    {
-        "listen": "0.0.0.0",
-        "port": 60443,
-        "protocol": "vless",
-        "settings": {
-            "clients": [
-                {
-                "email": "vlpn11-ipv4",
-                "id": "6ccdda4a-d16b-4d99-8533-b473e64205ed",
-                "flow": "xtls-rprx-vision"
-                }
-            ],
-        "decryption": "none"
-        },
-
-        "streamSettings": {
-            "network": "tcp",
-            "security": "reality",
-            "realitySettings": {
-                "show": false,
-                "dest": "apple.com:443",
-                "xver": 0,
-                "serverNames": [ "apple.com" ],
-                "privateKey": "yBg0q0Uy-TAKYfeg4CUxoFr9VtC3RGAVj2sf8svCP0A",
-              "publicKey": "2Oc2DnoNVC9VaJvl6_EEmc2Bs_RkyxBNS4nXSU0dvTM",
-                "minClientVer": "",
-                "maxClientVer": "",
-                "maxTimeDiff": 0,
-                "shortIds": [ "cb04cb" ]
-            }
-        },
-
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http", "tls" ]
-        }
     }
     ]
 }

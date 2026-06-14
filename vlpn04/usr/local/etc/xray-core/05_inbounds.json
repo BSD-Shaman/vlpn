@@ -1,46 +1,40 @@
-
+{
     "inbounds": [
-	{
-	    "listen": "0.0.0.0",
-	    "port": 59443,
-	    "protocol": "vless",
-	    "settings": {
-		"clients": [
-		    {
-			"email": "vlpn10",
-			"id": "f895c97e-908d-4428-921c-4b3bb3933efd",
-			"flow": "xtls-rprx-vision"
-		    }
-		],
-		"decryption": "none"
-	    },
-	    "streamSettings": {
-		"network": "tcp",
-		"security": "reality",
-		"realitySettings": {
-		    "show": false,
-		    "dest": "github.com:443",
-		    "xver": 0,
-		    "serverNames": [
-			"github.com",
-			"www.github.com"
-		    ],
-		    "privateKey": "8Ba_wfKAPI3eS6euFDJqB-Eqez2dNp-cex8L9TydEVE",
-		    "minClientVer": "",
-		    "maxClientVer": "",
-		    "maxTimeDiff": 0,
-		    "shortIds": [
-			"59201f4b74a8b881"
-		    ]
-		}
-	    },
-	    "sniffing": {
-		"enabled": true,
-		"destOverride": [
-		    "http",
-		    "tls"
-		]
-	    }
-	}
+    {
+        "listen": "0.0.0.0",
+        "port": 59443,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn10",
+                "id": "f895c97e-908d-4428-921c-4b3bb3933efd",
+                "flow": "xtls-rprx-vision"
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "reality",
+            "realitySettings": {
+                "show": false,
+                "dest": "github.com:443",
+                "xver": 0,
+                "serverNames": [ "github.com" ],
+                "privateKey": "MIsBFSYEMhsOO0EY3xyt-366LV1B9QPvGFcOV6ju3n4",
+                "minClientVer": "",
+                "maxClientVer": "",
+                "maxTimeDiff": 0,
+                "shortIds": [ "59201f4b74a8b881" ]
+            }
+        },
+
+        "sniffing": {
+            "enabled": true,
+            "destOverride": [ "http", "tls" ]
+        }
+    }
     ]
 }

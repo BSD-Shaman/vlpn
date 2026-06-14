@@ -2,36 +2,72 @@
     "inbounds": [
 // vlpn10-ipv4 config
     {
-        "listen": "0.0.0.0",
-        "port": 59443,
-        "protocol": "vless",
-        "settings": {
-            "clients": [
-                {
-                "email": "vlpn10-ipv4",
-                "id": "f895c97e-908d-4428-921c-4b3bb3933efd",
-                "flow": ""
-                }
-            ],
-        "decryption": "none"
-        },
+	"listen": "0.0.0.0",
+	"port": 59443,
+	"protocol": "vless",
+	"settings": {
+	    "clients": [
+		{
+		"email": "vlpn10-ipv4",
+		"id": "f895c97e-908d-4428-921c-4b3bb3933efd",
+		"flow": ""
+		}
+	    ],
+	"decryption": "none"
+	},
 
-        "streamSettings": {
-            "network": "tcp",
-            "security": "none",
-            "externalProxy": [],
-            "tcpSettings": {
-                "acceptProxyProtocol": false,
-                "header": { "type": "none" }
-            }
-        },
+	"streamSettings": {
+	    "network": "tcp",
+	    "security": "none",
+	    "externalProxy": [],
+	    "tcpSettings": {
+		"acceptProxyProtocol": false,
+		"header": { "type": "none" }
+	    }
+	},
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
-        }
+	"sniffing": {
+	    "enabled": true,
+	    "destOverride": [ "http","tls","quic","fakedns" ],
+	    "metadataOnly": false,
+	    "routeOnly": false
+	},
+    "tag": "inbound-vlpn10-ipv4"
+    },
+
+// vlpn11-ipv4 config
+    {
+	"listen": "0.0.0.0",
+	"port": 60443,
+	"protocol": "vless",
+	"settings": {
+	    "clients": [
+		{
+		"email": "vlpn11-ipv4",
+		"id": "c289ab31-f869-41f0-9f55-6edd9dcf049a",
+		"flow": ""
+		}
+	    ],
+	"decryption": "none"
+	},
+
+	"streamSettings": {
+	    "network": "tcp",
+	    "security": "none",
+	    "externalProxy": [],
+	    "tcpSettings": {
+		"acceptProxyProtocol": false,
+		"header": { "type": "none" }
+	    }
+	},
+
+	"sniffing": {
+	    "enabled": true,
+	    "destOverride": [ "http","tls","quic","fakedns" ],
+	    "metadataOnly": false,
+	    "routeOnly": false
+	},
+    "tag": "inbound-vlpn11-ipv4"
     }
     ]
 }

@@ -1,0 +1,90 @@
+cpu             HAMMER
+ident           qemu-151-ipv6
+
+options         SCHED_ULE
+options         PREEMPTION
+#options         VIMAGE
+options         INET
+options         INET6
+options         TCP_OFFLOAD
+#options         TCP_BLACKBOX
+#options         TCP_HHOOK
+options         TCP_RFC7413
+options         SCTP_SUPPORT
+options         KERN_TLS
+options         FFS
+options         SOFTUPDATES
+options         UFS_ACL
+options         UFS_DIRHASH
+options         UFS_GJOURNAL
+#options         SYSVSHM
+options         SYSVMSG
+options         SYSVSEM
+#options         _KPOSIX_PRIORITY_SCHEDULING
+#options         HWPMC_HOOKS
+#options         EFIRT
+#options         AUDIT
+options         MAC
+options         PF_DEFAULT_TO_DROP
+options         MAC_NTPD
+
+# Network file system
+options         NFSCL
+options         NFSD
+options         NFSLOCKD
+
+# Make an SMP-capable kernel by default
+options         SMP
+device          cpufreq
+
+# Bus support.
+device          acpi
+device          smbios
+device          pci
+
+# ATA controllers
+device          ata
+
+# ATA/SCSI peripherals
+device          scbus
+device          ch
+
+# atkbdc0 controls both the keyboard and the PS/2 mouse
+device          atkbdc
+device          atkbd
+device          kbdmux
+
+# syscons is the legacy console driver, resembling an SCO console
+device          vga
+device          sc
+#options         SC_PIXEL_MODE
+
+# vt is the default video console driver
+device          vt
+device          vt_vga
+device          vt_efifb #?
+
+# Pseudo devices.
+device          crypto
+device          cryptodev
+device          aesni
+device          loop
+device          ether
+device          tuntap
+device          firmware
+device          bpf
+device          pf
+
+# VirtIO support
+device          virtio
+device          virtio_pci
+device          vtnet
+device          virtio_blk
+device          virtio_balloon
+device          virtio_console
+
+# Linux KVM paravirtualization support
+device          kvm_clock
+
+# Netmap provides direct access to TX/RX rings on supported NICs
+device          netmap

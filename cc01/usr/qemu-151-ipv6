@@ -20,7 +20,7 @@ options         UFS_GJOURNAL
 #options         SYSVSHM
 options         SYSVMSG
 options         SYSVSEM
-#options         _KPOSIX_PRIORITY_SCHEDULING
+options         _KPOSIX_PRIORITY_SCHEDULING
 #options         HWPMC_HOOKS
 options         EFIRT
 #options         AUDIT

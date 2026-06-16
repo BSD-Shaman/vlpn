@@ -71,8 +71,8 @@ device          aesni
 device          loop
 device          ether
 device          tuntap
-device          firmware
-device          bpf
+#device          firmware
+#device          bpf
 device          pf
 
 # VirtIO support

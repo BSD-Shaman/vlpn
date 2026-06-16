@@ -78,6 +78,7 @@ device          pf
 # VirtIO support
 device          virtio
 device          virtio_pci
+device          virtio_scsi
 device          vtnet
 device          virtio_blk
 device          virtio_balloon

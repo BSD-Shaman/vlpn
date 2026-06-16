@@ -22,7 +22,7 @@ options         SYSVMSG
 options         SYSVSEM
 #options         _KPOSIX_PRIORITY_SCHEDULING
 #options         HWPMC_HOOKS
-#options         EFIRT
+options         EFIRT
 #options         AUDIT
 options         MAC
 options         PF_DEFAULT_TO_DROP
@@ -62,7 +62,7 @@ device          sc
 # vt is the default video console driver
 device          vt
 device          vt_vga
-device          vt_efifb #?
+#device          vt_efifb #?
 
 # Pseudo devices.
 device          crypto

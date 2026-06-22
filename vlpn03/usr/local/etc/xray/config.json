@@ -56,6 +56,44 @@
 		"metadataOnly": false,
 		"routeOnly": false
 	    }
+	},
+	{
+	    "listen": "0.0.0.0",
+	    "port": 443,
+	    "protocol": "vless",
+	    "settings": {
+		"clients": [ { "id": "7d3304b5-29ee-4c9c-bbb4-66a008d41f1b" } ],
+		"decryption": "none"
+	    },
+	    "streamSettings": {
+		"network": "raw",
+		"security": "none"
+	    },
+	    "sniffing": {
+		"enabled": true,
+		"destOverride": [ "http","tls","quic","fakedns" ],
+		"metadataOnly": false,
+		"routeOnly": false
+	    }
+	},
+	{
+	    "listen": "0.0.0.0",
+	    "port": 443,
+	    "protocol": "vless",
+	    "settings": {
+		"clients": [ { "id": "9aead561-51bc-4d68-9955-3b18e839bb01" } ],
+		"decryption": "none"
+	    },
+	    "streamSettings": {
+		"network": "raw",
+		"security": "none"
+	    },
+	    "sniffing": {
+		"enabled": true,
+		"destOverride": [ "http","tls","quic","fakedns" ],
+		"metadataOnly": false,
+		"routeOnly": false
+	    }
 	}
     ],
 
@@ -88,4 +126,3 @@
 	"listen": "127.0.0.1:11111",
 	"tag": "metrics_out"
     }
-}

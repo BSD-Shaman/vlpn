@@ -1,41 +1,91 @@
 {
     "inbounds": [ 
-        {
-            "listen": "0.0.0.0",
-            "port": 443,
-            "protocol": "vless",
-            "settings": {
-                "clients": [ { "id": "f895c97e-908d-4428-921c-4b3bb3933efd" } ],
-                "decryption": "none"
-            },
-            "streamSettings": {
-                "network": "raw",
-                "security": "none"
-            },
-                "sniffing": {
-                    "enabled": true,
-                    "destOverride": [ "http","tls","quic","fakedns" ],
-                    "metadataOnly": false,
-                    "routeOnly": false
-                },
-    "tag": "inbound-vlpn03-vlpn10-ipv4"
-            }
-        ],
+	{
+	    "listen": "0.0.0.0",
+	    "port": 443,
+	    "protocol": "vless",
+	    "settings": {
+		"clients": [ { "id": "f895c97e-908d-4428-921c-4b3bb3933efd" } ],
+		"decryption": "none"
+	    },
+	    "streamSettings": {
+		"network": "raw",
+		"security": "none"
+	    },
+	    "sniffing": {
+		"enabled": true,
+		"destOverride": [ "http","tls","quic","fakedns" ],
+		"metadataOnly": false,
+		"routeOnly": false
+	    }
+	},
+	{
+	    "listen": "0.0.0.0",
+	    "port": 443,
+	    "protocol": "vless",
+	    "settings": {
+		"clients": [ { "id": "c289ab31-f869-41f0-9f55-6edd9dcf049a" } ],
+		"decryption": "none"
+	    },
+	    "streamSettings": {
+		"network": "raw",
+		"security": "none"
+	    },
+	    "sniffing": {
+		"enabled": true,
+		"destOverride": [ "http","tls","quic","fakedns" ],
+		"metadataOnly": false,
+		"routeOnly": false
+	    }
+	},
+	{
+	    "listen": "0.0.0.0",
+	    "port": 443,
+	    "protocol": "vless",
+	    "settings": {
+		"clients": [ { "id": "f0bb5798-c423-4587-af5d-ebfb06014bed" } ],
+		"decryption": "none"
+	    },
+	    "streamSettings": {
+		"network": "raw",
+		"security": "none"
+	    },
+	    "sniffing": {
+		"enabled": true,
+		"destOverride": [ "http","tls","quic","fakedns" ],
+		"metadataOnly": false,
+		"routeOnly": false
+	    }
+	}
+    ],
 
     "outbounds": [
-        {
-            "tag": "direct",
-            "protocol": "freedom",
-            "settings": {
-                "domainStrategy": "AsIs",
-                "redirect": "",
-                "noises": []
-            }
-        },
-        {
-            "tag": "blocked",
-            "protocol": "blackhole",
-            "settings": {}
-        }
-    ]
+	{
+	    "tag": "direct",
+	    "protocol": "freedom",
+	    "settings": {
+		"domainStrategy": "AsIs",
+		"redirect": "",
+		"noises": []
+	    }
+	},
+	{
+	    "tag": "blocked",
+	    "protocol": "blackhole",
+	    "settings": {}
+	}
+    ],
+
+    "log": {
+	"access": "none",
+	"dnsLog": false,
+	"error": "/var/log/xray-core/errors.log",
+	"loglevel": "warning",
+	"maskAddress": ""
+    },
+
+    "metrics": {
+	"listen": "127.0.0.1:11111",
+	"tag": "metrics_out"
+    }
 }

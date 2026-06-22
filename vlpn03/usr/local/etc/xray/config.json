@@ -1,0 +1,41 @@
+{
+    "inbounds": [ 
+        {
+            "listen": "0.0.0.0",
+            "port": 443,
+            "protocol": "vless",
+            "settings": {
+                "clients": [ { "id": "f895c97e-908d-4428-921c-4b3bb3933efd" } ],
+                "decryption": "none"
+            },
+            "streamSettings": {
+                "network": "raw",
+                "security": "none"
+            },
+                "sniffing": {
+                    "enabled": true,
+                    "destOverride": [ "http","tls","quic","fakedns" ],
+                    "metadataOnly": false,
+                    "routeOnly": false
+                },
+    "tag": "inbound-vlpn03-vlpn10-ipv4"
+            }
+        ],
+
+    "outbounds": [
+        {
+            "tag": "direct",
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "AsIs",
+                "redirect": "",
+                "noises": []
+            }
+        },
+        {
+            "tag": "blocked",
+            "protocol": "blackhole",
+            "settings": {}
+        }
+    ]
+}

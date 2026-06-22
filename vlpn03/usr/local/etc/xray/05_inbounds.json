@@ -1,0 +1,352 @@
+{
+    "inbounds": [
+// vlpn03-vlpn10-ipv6 config
+    {
+    "listen": "0.0.0.0",
+    "port": 49143,
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+	{
+	"email": "vlpn03-vlpn10-ipv4",
+	"id": "f895c97e-908d-4428-921c-4b3bb3933efd",
+	"flow": ""
+	}
+        ],
+    "decryption": "none"
+    },
+
+     "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "externalProxy": [],
+        "tcpSettings": {
+	"acceptProxyProtocol": false,
+	"header": { "type": "none" }
+        }
+    },
+
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [ "http","tls","quic","fakedns" ],
+        "metadataOnly": false,
+        "routeOnly": false
+    },
+    "tag": "inbound-vlpn03-vlpn10-ipv4"
+    },
+
+// vlpn03-vlpn11-ipv4 config
+    {
+    "listen": "0.0.0.0",
+    "port": 54443,
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+	{
+	"email": "vlpn03-vlpn11-ipv4",
+	"id": "c289ab31-f869-41f0-9f55-6edd9dcf049a",
+	"flow": ""
+	}
+        ],
+    "decryption": "none"
+    },
+
+    "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "externalProxy": [],
+        "tcpSettings": {
+	"acceptProxyProtocol": false,
+	"header": { "type": "none" }
+        }
+    },
+
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [ "http","tls","quic","fakedns" ],
+        "metadataOnly": false,
+        "routeOnly": false
+    },
+    "tag": "inbound-vlpn03-vlpn11-ipv4"
+    },
+// vlpn12-ipv4 config
+    {
+    "listen": "0.0.0.0",
+    "port": 52897,
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+	{
+	"email": "vlpn03-vlpn12-ipv4",
+	"id": "f0bb5798-c423-4587-af5d-ebfb06014bed",
+	"flow": ""
+	}
+        ],
+    "decryption": "none"
+    },
+
+    "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "externalProxy": [],
+        "tcpSettings": {
+	"acceptProxyProtocol": false,
+	"header": { "type": "none" }
+        }
+    },
+
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [ "http","tls","quic","fakedns" ],
+        "metadataOnly": false,
+        "routeOnly": false
+    },
+    "tag": "inbound-vlpn03-vlpn12-ipv4"
+    },
+
+// vlpn03-reserve-ipv4 config
+    {
+    "listen": "0.0.0.0",
+    "port": 59129,
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+	{
+	"email": "vlpn03-reserve-ipv4",
+	"id": "7d3304b5-29ee-4c9c-bbb4-66a008d41f1b",
+	"flow": ""
+	}
+        ],
+    "decryption": "none"
+    },
+
+    "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "externalProxy": [],
+        "tcpSettings": {
+	"acceptProxyProtocol": false,
+	"header": { "type": "none" }
+        }
+    },
+
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [ "http","tls","quic","fakedns" ],
+        "metadataOnly": false,
+        "routeOnly": false
+    },
+    "tag": "inbound-vlpn03-reserve-ipv4"
+    },
+
+// vlpn03-test-ipv4 config
+    {
+    "listen": "0.0.0.0",
+    "port": 60145,
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+	{
+	"email": "vlpn03-test-ipv4",
+	"id": "9aead561-51bc-4d68-9955-3b18e839bb01",
+	"flow": ""
+	}
+        ],
+    "decryption": "none"
+    },
+
+    "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "externalProxy": [],
+        "tcpSettings": {
+	"acceptProxyProtocol": false,
+	"header": { "type": "none" }
+        }
+    },
+
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [ "http","tls","quic","fakedns" ],
+        "metadataOnly": false,
+        "routeOnly": false
+    },
+    "tag": "inbound-vlpn03-test-ipv4"
+    },
+
+// vlpn03-vlpn10-ipv6 config
+    {
+    "listen": "::",
+    "port": 49143,
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+	{
+	"email": "vlpn03-vlpn10-ipv6",
+	"id": "f895c97e-908d-4428-921c-4b3bb3933efd",
+	"flow": ""
+	}
+        ],
+    "decryption": "none"
+    },
+
+     "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "externalProxy": [],
+        "tcpSettings": {
+	"acceptProxyProtocol": false,
+	"header": { "type": "none" }
+        }
+    },
+
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [ "http","tls","quic","fakedns" ],
+        "metadataOnly": false,
+        "routeOnly": false
+    },
+    "tag": "inbound-vlpn03-vlpn10-ipv6"
+    },
+
+// vlpn03-vlpn11-ipv6 config
+    {
+    "listen": "::",
+    "port": 54443,
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+	{
+	"email": "vlpn03-vlpn11-ipv6",
+	"id": "c289ab31-f869-41f0-9f55-6edd9dcf049a",
+	"flow": ""
+	}
+        ],
+    "decryption": "none"
+    },
+
+    "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "externalProxy": [],
+        "tcpSettings": {
+	"acceptProxyProtocol": false,
+	"header": { "type": "none" }
+        }
+    },
+
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [ "http","tls","quic","fakedns" ],
+        "metadataOnly": false,
+        "routeOnly": false
+    },
+    "tag": "inbound-vlpn03-vlpn11-ipv6"
+    },
+
+// vlpn12-ipv6 config
+    {
+    "listen": "::",
+    "port": 52897,
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+	{
+	"email": "vlpn03-vlpn12-ipv6",
+	"id": "f0bb5798-c423-4587-af5d-ebfb06014bed",
+	"flow": ""
+	}
+        ],
+    "decryption": "none"
+    },
+
+    "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "externalProxy": [],
+        "tcpSettings": {
+	"acceptProxyProtocol": false,
+	"header": { "type": "none" }
+        }
+    },
+
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [ "http","tls","quic","fakedns" ],
+        "metadataOnly": false,
+        "routeOnly": false
+    },
+    "tag": "inbound-vlpn03-vlpn12-ipv6"
+    },
+
+// vlpn03-reserve-ipv6 config
+    {
+    "listen": "::",
+    "port": 59129,
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+	{
+	"email": "vlpn03-reserve-ipv6",
+	"id": "7d3304b5-29ee-4c9c-bbb4-66a008d41f1b",
+	"flow": ""
+	}
+        ],
+    "decryption": "none"
+    },
+
+    "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "externalProxy": [],
+        "tcpSettings": {
+	"acceptProxyProtocol": false,
+	"header": { "type": "none" }
+        }
+    },
+
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [ "http","tls","quic","fakedns" ],
+        "metadataOnly": false,
+        "routeOnly": false
+    },
+    "tag": "inbound-vlpn03-reserve-ipv6"
+    },
+
+// vlpn03-test-ipv6 config
+    {
+    "listen": "::",
+    "port": 60145,
+    "protocol": "vless",
+    "settings": {
+        "clients": [
+	{
+	"email": "vlpn03-test-ipv6",
+	"id": "9aead561-51bc-4d68-9955-3b18e839bb01",
+	"flow": ""
+	}
+        ],
+    "decryption": "none"
+    },
+
+    "streamSettings": {
+        "network": "tcp",
+        "security": "none",
+        "externalProxy": [],
+        "tcpSettings": {
+	"acceptProxyProtocol": false,
+	"header": { "type": "none" }
+        }
+    },
+
+    "sniffing": {
+        "enabled": true,
+        "destOverride": [ "http","tls","quic","fakedns" ],
+        "metadataOnly": false,
+        "routeOnly": false
+    },
+    "tag": "inbound-vlpn03-test-ipv6"
+    }
+    ]
+}

@@ -10,7 +10,7 @@
                 {
                     "email": "vlpn01-vlpn10-ipv4",
                     "id": "25b2454c-5ced-4fce-a7b4-31fe7fe1c381",
-                    "flow": "xtls-rprx-vision"
+                    "flow": ""
                 }
             ],
         "decryption": "none"
@@ -39,7 +39,7 @@
                 {
                 "email": "vlpn01-vlpn11-ipv4",
                 "id": "f0a52980-3a27-48e2-96de-1004c9777d65",
-                "flow": "xtls-rprx-vision"
+                "flow": ""
                 }
             ],
         "decryption": "none"
@@ -68,7 +68,7 @@
                 {
                 "email": "vlpn01-vlpn12-ipv4",
                 "id": "9d0e3679-aed8-4813-ac20-8bda0f6106c3",
-                "flow": "xtls-rprx-vision"
+                "flow": ""
                 }
             ],
         "decryption": "none"
@@ -97,7 +97,7 @@
                 {
                 "email": "vlpn01-reserve-ipv4",
                 "id": "b833170b-308a-4da7-acaf-2ca1a8591c8e",
-                "flow": "xtls-rprx-vision"
+                "flow": ""
                 }
             ],
         "decryption": "none"
@@ -126,7 +126,7 @@
                 {
                 "email": "vlpn01-test-ipv4",
                 "id": "4f34ba86-ec77-4f91-b4bc-88a7d2116e9e",
-                "flow": "xtls-rprx-vision"
+                "flow": ""
                 }
             ],
         "decryption": "none"
@@ -155,7 +155,7 @@
                 {
                     "email": "vlpn01-fvpn10-ipv4",
                     "id": "02a63b39-b7c9-4389-9399-8bfc4cdb774b",
-                    "flow": "xtls-rprx-vision"
+                    "flow": ""
                 }
             ],
         "decryption": "none"
@@ -184,7 +184,7 @@
                 {
                 "email": "vlpn01-fvpn11-ipv4",
                 "id": "edfe93cf-cc3f-4e5e-912b-06efe8a56b5c",
-                "flow": "xtls-rprx-vision"
+                "flow": ""
                 }
             ],
         "decryption": "none"
@@ -213,7 +213,7 @@
                 {
                 "email": "vlpn01-fvpn12-ipv4",
                 "id": "b2576327-4af3-47e0-8a15-8afd1b1c6a3d",
-                "flow": "xtls-rprx-vision"
+                "flow": ""
                 }
             ],
         "decryption": "none"

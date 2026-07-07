@@ -1,73 +1,235 @@
 {
     "inbounds": [
-// vlpn10-ipv4 config
+// vlpn04-vlpn10-ipv4 config
     {
-	"listen": "0.0.0.0",
-	"port": 59443,
-	"protocol": "vless",
-	"settings": {
-	    "clients": [
-		{
-		"email": "vlpn10-ipv4",
-		"id": "f895c97e-908d-4428-921c-4b3bb3933efd",
-		"flow": ""
-		}
-	    ],
-	"decryption": "none"
-	},
+        "listen": "0.0.0.0",
+        "port": 49721,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn04-vlpn10-ipv4",
+                "id": "25b2454c-5ced-4fce-a7b4-31fe7fe1c381",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
 
-	"streamSettings": {
-	    "network": "tcp",
-	    "security": "none",
-	    "externalProxy": [],
-	    "tcpSettings": {
-		"acceptProxyProtocol": false,
-		"header": { "type": "none" }
-	    }
-	},
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
 
-	"sniffing": {
-	    "enabled": true,
-	    "destOverride": [ "http","tls","quic","fakedns" ],
-	    "metadataOnly": false,
-	    "routeOnly": false
-	},
-    "tag": "inbound-vlpn10-ipv4"
+    "tag": "inbound-vlpn04-vlpn10-ipv4"
     },
 
-// vlpn11-ipv4 config
+// vlpn04-vlpn11-ipv4 config
     {
-	"listen": "0.0.0.0",
-	"port": 60443,
-	"protocol": "vless",
-	"settings": {
-	    "clients": [
-		{
-		"email": "vlpn11-ipv4",
-		"id": "c289ab31-f869-41f0-9f55-6edd9dcf049a",
-		"flow": ""
-		}
-	    ],
-	"decryption": "none"
-	},
+        "listen": "0.0.0.0",
+        "port": 52278,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn04-vlpn11-ipv4",
+                "id": "f0a52980-3a27-48e2-96de-1004c9777d65",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
 
-	"streamSettings": {
-	    "network": "tcp",
-	    "security": "none",
-	    "externalProxy": [],
-	    "tcpSettings": {
-		"acceptProxyProtocol": false,
-		"header": { "type": "none" }
-	    }
-	},
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
 
-	"sniffing": {
-	    "enabled": true,
-	    "destOverride": [ "http","tls","quic","fakedns" ],
-	    "metadataOnly": false,
-	    "routeOnly": false
-	},
-    "tag": "inbound-vlpn11-ipv4"
-    }
+    "tag": "inbound-vlpn04-vlpn11-ipv4"
+    },
+
+// vlpn04-vlpn12-ipv4 config
+    {
+        "listen": "0.0.0.0",
+        "port": 57936,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn04-vlpn12-ipv4",
+                "id": "9d0e3679-aed8-4813-ac20-8bda0f6106c3",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+    "tag": "inbound-vlpn04-vlpn12-ipv4"
+    },
+
+// vlpn04-reserve-ipv4 config
+    {
+        "listen": "0.0.0.0",
+        "port": 58193,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn04-reserve-ipv4",
+                "id": "b833170b-308a-4da7-acaf-2ca1a8591c8e",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+    "tag": "inbound-vlpn04-reserve-ipv4"
+    },
+
+// vlpn04-test-ipv4 config
+    {
+        "listen": "0.0.0.0",
+        "port": 61993,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn04-test-ipv4",
+                "id": "4f34ba86-ec77-4f91-b4bc-88a7d2116e9e",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+     "tag": "inbound-vlpn04-test-ipv4"
+    },
+
+// vlpn04-fvpn10-ipv4 config
+    {
+        "listen": "0.0.0.0",
+        "port": 39710,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn04-fvpn10-ipv4",
+                "id": "02a63b39-b7c9-4389-9399-8bfc4cdb774b",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+ 
+    "tag": "inbound-vlpn04-fvpn10-ipv4"
+    },
+
+// vlpn04-fvpn11-ipv4 config
+    {
+        "listen": "0.0.0.0",
+        "port": 42274,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn04-fvpn11-ipv4",
+                "id": "edfe93cf-cc3f-4e5e-912b-06efe8a56b5c",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+    "tag": "inbound-vlpn04-fvpn11-ipv4"
+    },
+
+// vlpn04-fvpn12-ipv4 config
+    {
+        "listen": "0.0.0.0",
+        "port": 47936,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn04-fvpn12-ipv4",
+                "id": "b2576327-4af3-47e0-8a15-8afd1b1c6a3d",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+    "tag": "inbound-vlpn04-fvpn12-ipv4"
+    }    
     ]
 }

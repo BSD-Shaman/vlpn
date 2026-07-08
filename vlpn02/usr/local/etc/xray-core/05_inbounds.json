@@ -1,6 +1,6 @@
 {
     "inbounds": [
-// vlpn10-ipv4 config
+// vlpn02-vlpn10-ipv4 config
     {
         "listen": "0.0.0.0",
         "port": 57419,
@@ -8,7 +8,7 @@
         "settings": {
             "clients": [
                 {
-                "email": "vlpn10-ipv4",
+                "email": "vlpn02-vlpn10-ipv4",
                 "id": "a67298be-8c6d-42a9-b0be-aa224bde9531",
                 "flow": ""
                 }
@@ -26,16 +26,10 @@
             }
         },
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
-        },
-    "tag": "inbound-vlpn10-ipv4"
+    "tag": "inbound-vlpn02-vlpn10-ipv4"
     },
 
-// vlpn11-ipv4 config
+// vlpn02-vlpn11-ipv4 config
     {
         "listen": "0.0.0.0",
         "port": 58933,
@@ -43,7 +37,7 @@
         "settings": {
             "clients": [
                 {
-                "email": "vlpn11-ipv4",
+                "email": "vlpn02-vlpn11-ipv4",
                 "id": "09c6c5ca-9d69-4acf-a187-6b5cc728f7dd",
                 "flow": ""
                 }
@@ -61,16 +55,10 @@
             }
         },
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
-        },
-    "tag": "inbound-vlpn11-ipv4"
+    "tag": "inbound-vlpn02-vlpn11-ipv4"
     },
 
-// vlpn12-ipv4 config
+// vlpn02-vlpn12-ipv4 config
     {
         "listen": "0.0.0.0",
         "port": 59113,
@@ -78,7 +66,7 @@
         "settings": {
             "clients": [
                 {
-                "email": "vlpn12-ipv4",
+                "email": "vlpn02-vlpn12-ipv4",
                 "id": "8edace9e-4462-4fa7-a9ca-2ab37ab71220",
                 "flow": ""
                 }
@@ -96,16 +84,10 @@
             }
         },
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
-        },
-    "tag": "inbound-vlpn12-ipv4"
+    "tag": "inbound-vlpn02-vlpn12-ipv4"
     },
     
-// vlpn-reserve-ipv4 config
+// vlpn02-reserve-ipv4 config
     {
         "listen": "0.0.0.0",
         "port": 59113,
@@ -113,7 +95,7 @@
         "settings": {
             "clients": [
                 {
-                "email": "vlpn-reserve-ipv4",
+                "email": "vlpn02-reserve-ipv4",
                 "id": "9d0a689c-2cc2-4b28-bef1-1e1907cbc657",
                 "flow": ""
                 }
@@ -131,16 +113,10 @@
             }
         },
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
-        },
-    "tag": "inbound-vlpn-reserve-ipv4"
+    "tag": "inbound-vlpn02-reserve-ipv4"
     },   
 
-// vlpn-test-ipv4 config
+// vlpn02-test-ipv4 config
     {
         "listen": "0.0.0.0",
         "port": 59843,
@@ -148,7 +124,7 @@
         "settings": {
             "clients": [
                 {
-                "email": "vlpn-test-ipv4",
+                "email": "vlpn02-test-ipv4",
                 "id": "20fe5dfb-1437-4f18-a7ee-6bc1c9d94788",
                 "flow": ""
                 }
@@ -166,16 +142,10 @@
             }
         },
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
-        },
-    "tag": "inbound-vlpn-test-ipv4"
+    "tag": "inbound-vlpn02-test-ipv4"
     },
     
-// vlpn10-ipv6 config
+// vlpn02-vlpn10-ipv6 config
     {
         "listen": "0.0.0.0",
         "port": 57419,
@@ -183,7 +153,7 @@
         "settings": {
             "clients": [
                 {
-                "email": "vlpn10-ipv6",
+                "email": "vlpn02-vlpn10-ipv6",
                 "id": "a67298be-8c6d-42a9-b0be-aa224bde9531",
                 "flow": ""
                 }
@@ -201,16 +171,10 @@
             }
         },
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
-        },
-    "tag": "inbound-vlpn10-ipv6"
+    "tag": "inbound-vlpn02-vlpn10-ipv6"
     },
 
-// vlpn11-ipv6 config
+// vlpn02-vlpn11-ipv6 config
     {
         "listen": "0.0.0.0",
         "port": 58933,
@@ -218,7 +182,7 @@
         "settings": {
             "clients": [
                 {
-                "email": "vlpn11-ipv6",
+                "email": "vlpn02-vlpn11-ipv6",
                 "id": "09c6c5ca-9d69-4acf-a187-6b5cc728f7dd",
                 "flow": ""
                 }
@@ -236,16 +200,10 @@
             }
         },
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
-        },
-    "tag": "inbound-vlpn11-ipv6"
+    "tag": "inbound-vlpn02-vlpn11-ipv6"
     },
 
-// vlpn12-ipv6 config
+// vlpn02-vlpn12-ipv6 config
     {
         "listen": "0.0.0.0",
         "port": 59113,
@@ -253,7 +211,7 @@
         "settings": {
             "clients": [
                 {
-                "email": "vlpn12-ipv6",
+                "email": "vlpn02-vlpn12-ipv6",
                 "id": "8edace9e-4462-4fa7-a9ca-2ab37ab71220",
                 "flow": ""
                 }
@@ -271,16 +229,10 @@
             }
         },
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
-        },
-    "tag": "inbound-vlpn12-ipv6"
+    "tag": "inbound-vlpn02-vlpn12-ipv6"
     },
     
-// vlpn-reserve-ipv6 config
+// vlpn02-reserve-ipv6 config
     {
         "listen": "0.0.0.0",
         "port": 59113,
@@ -288,7 +240,7 @@
         "settings": {
             "clients": [
                 {
-                "email": "vlpn-reserve-ipv6",
+                "email": "vlpn02-reserve-ipv6",
                 "id": "9d0a689c-2cc2-4b28-bef1-1e1907cbc657",
                 "flow": ""
                 }
@@ -306,16 +258,10 @@
             }
         },
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
-        },
-    "tag": "inbound-vlpn-reserve-ipv6"
+    "tag": "inbound-vlpn02-reserve-ipv6"
     },   
 
-// vlpn-test-ipv6 config
+// vlpn02-test-ipv6 config
     {
         "listen": "0.0.0.0",
         "port": 59843,
@@ -323,7 +269,7 @@
         "settings": {
             "clients": [
                 {
-                "email": "vlpn-test-ipv6",
+                "email": "vlpn02-test-ipv6",
                 "id": "20fe5dfb-1437-4f18-a7ee-6bc1c9d94788",
                 "flow": ""
                 }
@@ -341,13 +287,181 @@
             }
         },
 
-        "sniffing": {
-            "enabled": true,
-            "destOverride": [ "http","tls","quic","fakedns" ],
-            "metadataOnly": false,
-            "routeOnly": false
+     "tag": "inbound-vlpn02-test-ipv6"
+    },
+
+// vlpn02-fvpn10-ipv4 config
+    {
+        "listen": "0.0.0.0",
+        "port": 37410,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn02-fvpn10-ipv4",
+                "id": "4f2469a9-a5a6-4468-b80f-f03504b13ac8",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
         },
-    "tag": "inbound-vlpn-test-ipv6"
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+    "tag": "inbound-vlpn02-fvpn10-ipv4"
+    },
+
+// vlpn02-fvpn11-ipv4 config
+    {
+        "listen": "0.0.0.0",
+        "port": 38930,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn02-fvpn11-ipv4",
+                "id": "f399503b-e535-46fc-8a30-5ccda825a5bd",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+    "tag": "inbound-vlpn02-fvpn11-ipv4"
+    },
+
+// vlpn02-fvpn12-ipv4 config
+    {
+        "listen": "0.0.0.0",
+        "port": 39113,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn02-fvpn12-ipv4",
+                "id": "047ca9bb-01d2-43d4-89a1-d499d18dad0c",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+    "tag": "inbound-vlpn02-fvpn12-ipv4"
+    },
+
+// vlpn02-fvpn10-ipv6 config
+    {
+        "listen": "::",
+        "port": 37410,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn02-fvpn10-ipv6",
+                "id": "4f2469a9-a5a6-4468-b80f-f03504b13ac8",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+    "tag": "inbound-vlpn02-fvpn10-ipv6"
+    },
+
+// vlpn02-fvpn11-ipv6 config
+    {
+        "listen": "::",
+        "port": 38930,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn02-fvpn11-ipv6",
+                "id": "f399503b-e535-46fc-8a30-5ccda825a5bd",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+    "tag": "inbound-vlpn02-fvpn11-ipv6"
+    },
+
+// vlpn02-fvpn12-ipv6 config
+    {
+        "listen": "::",
+        "port": 39113,
+        "protocol": "vless",
+        "settings": {
+            "clients": [
+                {
+                "email": "vlpn02-fvpn12-ipv6",
+                "id": "047ca9bb-01d2-43d4-89a1-d499d18dad0c",
+                "flow": ""
+                }
+            ],
+        "decryption": "none"
+        },
+
+        "streamSettings": {
+            "network": "tcp",
+            "security": "none",
+            "externalProxy": [],
+            "tcpSettings": {
+                "acceptProxyProtocol": false,
+                "header": { "type": "none" }
+            }
+        },
+
+    "tag": "inbound-vlpn02-fvpn12-ipv6"
     }
     ]
 }

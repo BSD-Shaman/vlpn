@@ -61,7 +61,7 @@
 // vlpn02-vlpn12-ipv4 config
     {
         "listen": "0.0.0.0",
-        "port": 59113,
+        "port": 56113,
         "protocol": "vless",
         "settings": {
             "clients": [
@@ -206,7 +206,7 @@
 // vlpn02-vlpn12-ipv6 config
     {
         "listen": "0.0.0.0",
-        "port": 59113,
+        "port": 56113,
         "protocol": "vless",
         "settings": {
             "clients": [

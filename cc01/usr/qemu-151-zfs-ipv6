@@ -8,11 +8,7 @@ options         TCP_OFFLOAD
 options         TCP_RFC7413
 options         SCTP_SUPPORT
 options         KERN_TLS
-options         FFS
-options         SOFTUPDATES
-options         UFS_ACL
-options         UFS_DIRHASH
-options         UFS_GJOURNAL
+options 	SYSVSHM
 options         SYSVMSG
 options         SYSVSEM
 options         _KPOSIX_PRIORITY_SCHEDULING
@@ -80,4 +76,3 @@ device          virtio_balloon          # VirtIO Memory Balloon device
 device          kvm_clock               # KVM paravirtual clock driver
 
 # Netmap provides direct access to TX/RX rings on supported NICs
-device          netmap                  # netmap(4) support

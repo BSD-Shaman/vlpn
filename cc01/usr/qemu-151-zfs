@@ -76,3 +76,4 @@ device          virtio_balloon          # VirtIO Memory Balloon device
 device          kvm_clock               # KVM paravirtual clock driver
 
 # Netmap provides direct access to TX/RX rings on supported NICs
+device          netmap
